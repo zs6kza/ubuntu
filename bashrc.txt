@@ -1,0 +1,6 @@
+alias scripts="cd ~/scripts"
+alias cls="clear"
+alias more="more.sh"
+alias upg="sudo apt list --upgradable"
+alias mychks="cd ~/Documents/scripts/mychks"
+alias doup="sudo apt install $(apt list --upgradable 2>/dev/null | tail -n +2 | cut -d/ -f1) -y" 
